@@ -2,14 +2,24 @@ package samples.demo;
 
 public class Location {
 	
-	private String locations;
+	private String locationname;
+	private int poscode;
+	
+	 public int getPoscode() {
+	        return this.poscode;
+	    }
+
+	    public void setPoscode(int posc) {
+	        this.poscode = posc;
+	    }
+	
 	
 	public String getLocation() {
-		return this.locations;
+		return this.locationname;
 	}
 	
-	public void setLocation (String loc) {
-		this.locations = loc;
+	public void setLocation (String name) {
+		this.locationname = name;
 	}
 	
 }
